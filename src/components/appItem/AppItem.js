@@ -20,7 +20,7 @@ function AppItem() {
             </div>
             <div className="item__bottom">
                 <div className="item__price">48,76 ₸</div>
-                <button className="item__cart btn btn__item">В КОРЗИНУ<img src={cartLogo} alt="тележка" /></button>
+                <button className="item__cart btn btn_item">В КОРЗИНУ<img src={cartLogo} alt="тележка" /></button>
             </div>
         </li>
     )

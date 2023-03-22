@@ -8,7 +8,7 @@ function AppEvent() {
     return (
         <section className='promo-items'>
             <div className="container">
-                <h2 className="promo-items__title"><span>Акционные</span> товары</h2>
+                <h2 className="promo-items__title title"><span>Акционные</span> товары</h2>
                 <ul className="promo-items__wrap">
                     {AppItem()}
                 </ul>

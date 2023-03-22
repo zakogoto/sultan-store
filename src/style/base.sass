@@ -1,0 +1,50 @@
+@import 'variables'
+*
+    font-family: 'Inter', sans-serif
+    font-style: normal
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+    text-decoration: none
+
+ul
+    list-style: none
+
+.container
+    max-width: 1320px
+    margin: 0 auto
+    height: 100%
+
+.App
+    position: relative
+
+.indicators 
+    position: absolute
+    right: 0
+    bottom: 24px
+    left: 0
+    z-index: 15
+    display: flex
+    justify-content: center
+    margin-right: 15%
+    margin-left: 15%
+    list-style: none
+.dot 
+    box-sizing: content-box
+    flex: 0 1 auto
+    width: 16px
+    height: 7px
+    margin-right: 3px
+    margin-left: 3px
+    cursor: pointer
+    background-color: $second-text-color
+    opacity: 0.1
+    transition: opacity .6s ease
+    border-radius: 100px
+    &_active, &_active-yellow
+        opacity: 1
+        width: 26px
+        height: 7px
+        background: #FFF
+        &-yellow
+            background: $main-color
